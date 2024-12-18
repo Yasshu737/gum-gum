@@ -1,0 +1,46 @@
+.load {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    background-size: cover;
+
+    background-image: url(Loading\ free\ icons\ designed\ by\ Freepik.jpeg);
+    position: absolute;
+    top: 30%;
+    left: 51.50%;
+    transition: all 2s ease-in 1s;
+
+    animation: round 2s steps(50) 0ms infinite normal forwards;
+}
+
+@keyframes round {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
+
+.loading {
+    position: fixed;
+    bottom: 50%;
+    left: 48%;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+
+    animation: blink 2s steps(10) 0ms infinite normal forwards;
+}
+
+@keyframes blink {
+    from {
+        color: rgb(0, 0, 0, )
+    }
+
+    to {
+        color: rgba(46, 46, 46, 0.20)
+    }
+}
